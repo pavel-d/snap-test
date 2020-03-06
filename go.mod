@@ -1,3 +1,3 @@
-module github.com/pavel-d/snap-test
+module github.com/pavel-d/snaptest
 
 go 1.13

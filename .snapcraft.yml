@@ -1,0 +1,16 @@
+name: snaptest
+version: git
+summary: Testing snapcraft build.
+description: Testing snapcraft build.
+confinement: strict
+base: core18
+parts:
+  snaptest:
+    plugin: go
+    go-importpath: github.com/pavel-d/snaptest
+    source: .
+    source-type: git
+
+apps:
+  snaptest:
+    command: bin/snaptest
