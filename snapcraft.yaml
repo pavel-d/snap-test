@@ -7,7 +7,7 @@ base: core18
 parts:
   snaptest:
     plugin: go
-    go-importpath: github.com/pavel-d/snaptest
+    go-channel: 1.13/stable
     source: .
     source-type: git
 
